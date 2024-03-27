@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +21,10 @@ function App() {
       </header>
     </div>
   );
-}
-
+} */
+const App = () => {
+  return (
+    <h1>GitHub Pages로 리액트 프로젝트 배포</h1>
+  );
+};
 export default App;
